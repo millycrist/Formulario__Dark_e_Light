@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+
+    <h1>Cadastro de Usuário</h1>
+
+    <form id="cadastroForm">
+        <!-- Campos de cadastro -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" required>
+
+        <label for="confirmarSenha">Confirmar Senha:</label>
+        <input type="password" id="confirmarSenha" required>
+
+        <!-- Botões de tema -->
+        <button type="button" onclick="toggleTheme('light')">Light Theme</button>
+        <button type="button" onclick="toggleTheme('dark')">Dark Theme</button>
+
+        <!-- Botão de cadastro -->
+        <button type="button" onclick="validarCadastro()">Cadastrar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para os temas dark e light */
+body.dark {
+    background-color: #333; /* Cor de fundo para o tema dark */
+    color: #fff; /* Cor de texto para o tema dark */
+}
+
+/* Estilos para os botões de tema */
+button {
+    margin-right: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Animação para a transição entre temas */
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
